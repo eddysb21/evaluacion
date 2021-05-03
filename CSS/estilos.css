@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Overlock&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: arial;
+    background-color: #ecf6fa3f;
+}
+h3{
+    text-align: center;
+}
+a{
+	text-decoration: none;
+	outline: none;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(105, 105, 105, 0.212);
+
+}
+
+.imgportada img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    bottom: 0px;
+    z-index: -1;
+}
+
+.letterportada h1{
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(7, 7, 7, 0.616);
+    margin: 4rem 3rem 3rem 3rem;
+    padding: 1rem;
+    border-radius: 5px;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+.navHeader {
+    padding: auto;
+    /* border: 2px solid green; */
+    display: flex;
+    /* justify-content: center; */
+    background-color: rgba(0, 0, 0, 0.493);
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.navHeader a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(7, 20, 65, 0.719);
+    border: .1px solid rgba(70, 69, 69, 0.575);
+    padding: 1rem 2rem;
+    margin: .1px 0rem;
+    font-size:15px;
+}
+.navHeader a:hover{
+    color:rgba(30, 30, 31, 0.856);
+    background-color:  rgb(246, 246, 246);
+    transition: 1s ease-in-out 0s;
+
+}
+.datos{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: #F0F3F4;
+}
+.datouno{
+    background-color: #34495E;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 15px;
+}
+.datodos{
+    background-color:#2874A6;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 15px;
+}
+.datotres{
+    background-color: #2ECC71;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 15px;
+}
+.datocuatro{
+    background-color: #DC7633;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 15px;
+}
+/* =================cuerpo=======================s */
+main{
+    min-height: 100vh;
+}
+.contenedor{
+	width: auto;
+	display: flex;
+}
+aside{
+    width: 42rem;
+	margin: 2rem 0rem 0 2rem ;
+	height: 100%;
+	background: #c3d3df;
+    box-sizing: border-box;
+	padding:1rem;
+	border-radius: 10px;
+    position: sticky;
+    top:0;
+    bottom:40px
+}
+aside .navcontend a{
+    display: block;
+    color:rgba(20, 20, 19, 0.801);
+    padding: 5px 4rem;
+    font-size: 15px;
+    margin: 2px 0.4rem 0 0 ;
+}
+aside h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: 'Mukta', sans-serif;
+}
+aside a:hover{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 15px;
+
+}
+.contenido{
+    border-left: 1px solid rgb(4, 15, 37) ;
+    border-right: 1px solid black;
+    display: block;
+    padding: 1rem;
+    margin: 0 20px;
+    text-align: justify;
+    width: 100%;
+    font-family: 'Overlock', cursive;
+
+}
+.post{
+    padding-top: 2rem;
+}
+.post img{
+    width: 600px;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center
+}
+.post h2{
+    font-size: 35px;
+    padding-left: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding:1.5rem 0;
+    font-family: 'Mukta', sans-serif!important;
+
+}
+.imgoms img{
+    height: auto;
+}
+.refes{
+    display: flex;
+    justify-content:center;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    background-color:#34495E;
+    color:#E5E7E9;
+    border-radius: 30px;
+}
+table{
+    text-align: center;
+    margin: 1rem;
+   border:3px solid  rgb(114, 147, 245);
+   /* border-collapse: collapse; */
+   border-radius: 10px;
+
+}
+tr{
+     border: 2px solid rgba(0, 0, 0, 0.096);
+}
+th, td{
+    padding: 1rem;
+    border-bottom: 3px solid rgb(148, 141, 141);
+    border-top: 2px solid rgb(15, 15, 15);
+}
+.contenidoder{
+    text-align: center;
+    width: 500px;
+    position: sticky;
+    top:0rem;
+    /* border-top: 3px solid red; */
+}
+.contenidoder h2{
+    font-family: 'Mukta', sans-serif;
+    color: #EB984E;
+}
+.contenidoder span{
+    color:#138D75;
+    font-size: 15px;
+}
+.dos a img:hover{
+    transform: scale(1.1, 1.1);
+    transition: 0.5s ease-in-out;
+}
+.uno{
+    padding: 1rem;
+    margin:10px;
+    margin-bottom: 0px;
+}
+.dos{
+    border-top: 1px solid black;
+    margin-top: 0px;
+    padding: 1rem;
+    position: sticky;
+    top:0;
+}
+
+.dos img{
+    background-color: #34495e59;
+    width: 7rem;
+    height: 6rem;
+    border-radius: 10px;
+}
+.tasas{
+    display: grid;
+    grid-template-columns:200px 200px 200px;
+    justify-content:center;
+    text-align: center;
+    color: white
+}
+#tasauno{
+    margin-right: 1rem;
+    background-color:#23685A;
+    padding: 1rem;
+    border-radius: 10px;
+}
+#tasados{
+    margin-right: 1rem;
+    background-color:#23685A;
+    padding: 1rem;
+    border-radius: 10px;
+}
+#tasatres{
+    background-color:#0A90A5;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.bloque{
+    text-align:center;
+    background-color:rgba(129, 129, 129, 0.61);
+    border-radius: 15px;
+    margin: 1rem 0;
+    }
+.list{
+    text-align: left;
+    font-size: 18px;
+    display:inline-block;
+    /* text-decoration: none; */
+    list-style: none;
+    color: #063b31;
+    }
+footer{
+    background-image: -o-repeating-linear-gradient(10%);
+    border-top: 1px solid black
+}
+footer .fondo{
+    position: absolute;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.abajo-dos{
+    /* display: flex; */
+    /* text-align: center; */
+    width: 500px;
+    position: sticky;
+    top:0rem;
+    /* border-top: 3px solid red; */
+}
+footer h2 {
+    background: linear-gradient(to top, #5D6D7E,#AEB6BF);
+    text-align: center;
+    margin-top: 25%;
+    color:#c3d3df;
+    font-family: 'Mukta', sans-serif;
+    padding: .5rem 0;
+    font-size: 3rem;
+}
+.abajo-dos{
+    border-radius: 30px;
+    display: flex;
+    margin-top: 0px;
+    padding: 1rem;
+    background-color: #c3d3df;
+    margin-left: auto;
+    margin-right: auto  ;
+}
+.abajo-dos a{
+    color: #2874A6;
+    text-align: center;
+}
+.abajo-dos a:hover{
+    transform: scale(1) translate(-1px, -10%);
+    transition: 1s ease-in-out 0s;
+}
+footer .abajo-dos img{
+    background-color: rgba(246, 246, 246, 0.555);
+    width: 7rem;
+    height: 6rem;
+    border-radius: 10px;
+}
